@@ -14,9 +14,22 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     var window: UIWindow?
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        guard let _ = scene as? UIWindowScene else {
+        guard let windowScene = scene as? UIWindowScene else {
             fatalError("LOL, be careful, drink some water")
         }
+        
+        let window = UIWindow(windowScene: windowScene)
+        
+        window.rootViewController = AppTabBarController()
+        
+        
+        UITabBarItem.appearance().setTitleTextAttributes([.font: UIFont.systemFont(ofSize: 10, weight: .medium)], for: .normal)
+        
+//        UITabBar.appearance().tintColor = .red
+        
+        self.window = window
+        window.makeKeyAndVisible()
     }
+
 }
 

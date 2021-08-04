@@ -33,6 +33,15 @@ extension UIImage {
 enum ContentType {
     case story(Story)
     case gallery(Gallery)
+    
+    func get() -> Any {
+        switch self {
+        case .story(let story):
+            return story
+        case .gallery(let gallery):
+            return gallery
+        }
+    }
 }
 
 struct FillingData {

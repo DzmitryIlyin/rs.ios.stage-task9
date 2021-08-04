@@ -11,7 +11,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface StrokeColorSelection : UIViewController <UITableViewDelegate, UITableViewDataSource>
+@interface StrokeTableViewCell : UITableViewCell
 
 @end
 

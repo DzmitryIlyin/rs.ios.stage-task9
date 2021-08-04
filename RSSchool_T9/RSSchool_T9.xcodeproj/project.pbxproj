@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		241AD9B226B4292500D99F8A /* BasicContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241AD9B126B4292500D99F8A /* BasicContentViewController.swift */; };
+		241AD9B426B456F400D99F8A /* ThemeImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241AD9B326B456F400D99F8A /* ThemeImageCell.swift */; };
+		241AD9B626B473DE00D99F8A /* StoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241AD9B526B473DE00D99F8A /* StoryViewController.swift */; };
+		241AD9BA26B4765800D99F8A /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241AD9B926B4765800D99F8A /* GalleryViewController.swift */; };
+		241AD9BC26B56C8D00D99F8A /* HomeImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241AD9BB26B56C8D00D99F8A /* HomeImageView.swift */; };
+		241AD9BE26B56F2F00D99F8A /* SectionImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241AD9BD26B56F2F00D99F8A /* SectionImageView.swift */; };
+		241AD9C426B6D1D800D99F8A /* ShieldLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241AD9C326B6D1D800D99F8A /* ShieldLabel.swift */; };
+		241AD9C826B8041400D99F8A /* DrawingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241AD9C726B8041400D99F8A /* DrawingCell.swift */; };
+		241AD9CA26B91EAE00D99F8A /* StoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241AD9C926B91EAE00D99F8A /* StoryCell.swift */; };
+		241AD9CC26B989BC00D99F8A /* AutoInvalidatingLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241AD9CB26B989BC00D99F8A /* AutoInvalidatingLayout.swift */; };
+		2498ABDE26B16EB2004C404C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2498ABDD26B16EB2004C404C /* HomeViewController.swift */; };
+		2498ABE226B1820F004C404C /* SettingsMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2498ABE126B1820F004C404C /* SettingsMainViewController.m */; };
+		2498ABE426B1846C004C404C /* AppTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2498ABE326B1846C004C404C /* AppTabBarController.swift */; };
+		2498ABE626B18658004C404C /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2498ABE526B18658004C404C /* Colors.xcassets */; };
+		2498ABE926B1A760004C404C /* SFProDisplay-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2498ABE826B1A760004C404C /* SFProDisplay-Medium.otf */; };
+		2498ABEF26B2B90D004C404C /* HomeImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2498ABEE26B2B90D004C404C /* HomeImageCell.swift */; };
+		24EBA0B826BADDAD0027345B /* AnotherGalleryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EBA0B726BADDAD0027345B /* AnotherGalleryCell.swift */; };
+		24EBA0BA26BAE4400027345B /* GalleryItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EBA0B926BAE4400027345B /* GalleryItemViewController.swift */; };
+		24EBA0BE26BB212E0027345B /* StrokeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EBA0BD26BB212E0027345B /* StrokeTableViewCell.m */; };
+		24EBA0C126BB27210027345B /* DrawTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EBA0C026BB27210027345B /* DrawTableViewCell.m */; };
+		24EBA0C426BB29CC0027345B /* StrokeColorSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EBA0C326BB29CC0027345B /* StrokeColorSelection.m */; };
+		24EBA0C726BB2BD70027345B /* StrokeColorTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 24EBA0C626BB2BD70027345B /* StrokeColorTableViewCell.m */; };
 		2BB9E75C26AB605700112651 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB9E75B26AB605700112651 /* AppDelegate.swift */; };
 		2BB9E75E26AB605700112651 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB9E75D26AB605700112651 /* SceneDelegate.swift */; };
 		2BB9E76326AB605700112651 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BB9E76126AB605700112651 /* Main.storyboard */; };
@@ -28,6 +50,34 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		241AD9B126B4292500D99F8A /* BasicContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicContentViewController.swift; sourceTree = "<group>"; };
+		241AD9B326B456F400D99F8A /* ThemeImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeImageCell.swift; sourceTree = "<group>"; };
+		241AD9B526B473DE00D99F8A /* StoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryViewController.swift; sourceTree = "<group>"; };
+		241AD9B926B4765800D99F8A /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		241AD9BB26B56C8D00D99F8A /* HomeImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeImageView.swift; sourceTree = "<group>"; };
+		241AD9BD26B56F2F00D99F8A /* SectionImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionImageView.swift; sourceTree = "<group>"; };
+		241AD9C326B6D1D800D99F8A /* ShieldLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShieldLabel.swift; sourceTree = "<group>"; };
+		241AD9C726B8041400D99F8A /* DrawingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingCell.swift; sourceTree = "<group>"; };
+		241AD9C926B91EAE00D99F8A /* StoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCell.swift; sourceTree = "<group>"; };
+		241AD9CB26B989BC00D99F8A /* AutoInvalidatingLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoInvalidatingLayout.swift; sourceTree = "<group>"; };
+		2498ABDD26B16EB2004C404C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2498ABDF26B1820F004C404C /* RSSchool_T9-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RSSchool_T9-Bridging-Header.h"; sourceTree = "<group>"; };
+		2498ABE026B1820F004C404C /* SettingsMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsMainViewController.h; sourceTree = "<group>"; };
+		2498ABE126B1820F004C404C /* SettingsMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsMainViewController.m; sourceTree = "<group>"; };
+		2498ABE326B1846C004C404C /* AppTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarController.swift; sourceTree = "<group>"; };
+		2498ABE526B18658004C404C /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		2498ABE826B1A760004C404C /* SFProDisplay-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFProDisplay-Medium.otf"; sourceTree = "<group>"; };
+		2498ABEE26B2B90D004C404C /* HomeImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeImageCell.swift; sourceTree = "<group>"; };
+		24EBA0B726BADDAD0027345B /* AnotherGalleryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotherGalleryCell.swift; sourceTree = "<group>"; };
+		24EBA0B926BAE4400027345B /* GalleryItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryItemViewController.swift; sourceTree = "<group>"; };
+		24EBA0BC26BB212E0027345B /* StrokeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StrokeTableViewCell.h; sourceTree = "<group>"; };
+		24EBA0BD26BB212E0027345B /* StrokeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrokeTableViewCell.m; sourceTree = "<group>"; };
+		24EBA0BF26BB27210027345B /* DrawTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawTableViewCell.h; sourceTree = "<group>"; };
+		24EBA0C026BB27210027345B /* DrawTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawTableViewCell.m; sourceTree = "<group>"; };
+		24EBA0C226BB29CC0027345B /* StrokeColorSelection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StrokeColorSelection.h; sourceTree = "<group>"; };
+		24EBA0C326BB29CC0027345B /* StrokeColorSelection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrokeColorSelection.m; sourceTree = "<group>"; };
+		24EBA0C526BB2BD70027345B /* StrokeColorTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StrokeColorTableViewCell.h; sourceTree = "<group>"; };
+		24EBA0C626BB2BD70027345B /* StrokeColorTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrokeColorTableViewCell.m; sourceTree = "<group>"; };
 		2BB9E75826AB605700112651 /* RSSchool_T9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSchool_T9.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BB9E75B26AB605700112651 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BB9E75D26AB605700112651 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +111,82 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		241AD9BF26B5715F00D99F8A /* home */ = {
+			isa = PBXGroup;
+			children = (
+				2498ABDD26B16EB2004C404C /* HomeViewController.swift */,
+				2498ABEE26B2B90D004C404C /* HomeImageCell.swift */,
+				241AD9BB26B56C8D00D99F8A /* HomeImageView.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		241AD9C026B5717D00D99F8A /* details */ = {
+			isa = PBXGroup;
+			children = (
+				24EBA0C826BB30990027345B /* basic */,
+				241AD9C226B571A700D99F8A /* story */,
+				241AD9C126B5719100D99F8A /* gallery */,
+			);
+			path = details;
+			sourceTree = "<group>";
+		};
+		241AD9C126B5719100D99F8A /* gallery */ = {
+			isa = PBXGroup;
+			children = (
+				241AD9B926B4765800D99F8A /* GalleryViewController.swift */,
+				24EBA0B726BADDAD0027345B /* AnotherGalleryCell.swift */,
+				24EBA0B926BAE4400027345B /* GalleryItemViewController.swift */,
+			);
+			path = gallery;
+			sourceTree = "<group>";
+		};
+		241AD9C226B571A700D99F8A /* story */ = {
+			isa = PBXGroup;
+			children = (
+				241AD9B526B473DE00D99F8A /* StoryViewController.swift */,
+				241AD9C726B8041400D99F8A /* DrawingCell.swift */,
+				241AD9C926B91EAE00D99F8A /* StoryCell.swift */,
+			);
+			path = story;
+			sourceTree = "<group>";
+		};
+		2498ABE726B1A74E004C404C /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2498ABE826B1A760004C404C /* SFProDisplay-Medium.otf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		24EBA0BB26BB21100027345B /* settings */ = {
+			isa = PBXGroup;
+			children = (
+				2498ABE026B1820F004C404C /* SettingsMainViewController.h */,
+				2498ABE126B1820F004C404C /* SettingsMainViewController.m */,
+				24EBA0BC26BB212E0027345B /* StrokeTableViewCell.h */,
+				24EBA0BD26BB212E0027345B /* StrokeTableViewCell.m */,
+				24EBA0BF26BB27210027345B /* DrawTableViewCell.h */,
+				24EBA0C026BB27210027345B /* DrawTableViewCell.m */,
+				24EBA0C226BB29CC0027345B /* StrokeColorSelection.h */,
+				24EBA0C326BB29CC0027345B /* StrokeColorSelection.m */,
+				24EBA0C526BB2BD70027345B /* StrokeColorTableViewCell.h */,
+				24EBA0C626BB2BD70027345B /* StrokeColorTableViewCell.m */,
+			);
+			path = settings;
+			sourceTree = "<group>";
+		};
+		24EBA0C826BB30990027345B /* basic */ = {
+			isa = PBXGroup;
+			children = (
+				241AD9B126B4292500D99F8A /* BasicContentViewController.swift */,
+				241AD9BD26B56F2F00D99F8A /* SectionImageView.swift */,
+				241AD9B326B456F400D99F8A /* ThemeImageCell.swift */,
+				241AD9C326B6D1D800D99F8A /* ShieldLabel.swift */,
+			);
+			path = basic;
+			sourceTree = "<group>";
+		};
 		2BB9E74F26AB605700112651 = {
 			isa = PBXGroup;
 			children = (
@@ -80,13 +206,21 @@
 		2BB9E75A26AB605700112651 /* RSSchool_T9 */ = {
 			isa = PBXGroup;
 			children = (
+				24EBA0BB26BB21100027345B /* settings */,
+				241AD9C026B5717D00D99F8A /* details */,
+				241AD9BF26B5715F00D99F8A /* home */,
+				2498ABE726B1A74E004C404C /* fonts */,
 				2BB9F28F26ADFAEB00F43852 /* Data */,
 				2BB9E75B26AB605700112651 /* AppDelegate.swift */,
+				241AD9CB26B989BC00D99F8A /* AutoInvalidatingLayout.swift */,
 				2BB9E75D26AB605700112651 /* SceneDelegate.swift */,
+				2498ABE326B1846C004C404C /* AppTabBarController.swift */,
 				2BB9E76126AB605700112651 /* Main.storyboard */,
 				2BB9E76426AB605900112651 /* Assets.xcassets */,
 				2BB9E76626AB605900112651 /* LaunchScreen.storyboard */,
 				2BB9E76926AB605900112651 /* Info.plist */,
+				2498ABDF26B1820F004C404C /* RSSchool_T9-Bridging-Header.h */,
+				2498ABE526B18658004C404C /* Colors.xcassets */,
 			);
 			path = RSSchool_T9;
 			sourceTree = "<group>";
@@ -214,12 +348,14 @@
 				2BB9E76826AB605900112651 /* LaunchScreen.storyboard in Resources */,
 				2BB9F30726AF5D9D00F43852 /* s3-text.txt in Resources */,
 				2BB9F30926AF5DAF00F43852 /* s3-title.txt in Resources */,
+				2498ABE926B1A760004C404C /* SFProDisplay-Medium.otf in Resources */,
 				2BB9F31226AF5FBE00F43852 /* s4-title.txt in Resources */,
 				2BB9F29526AE01A300F43852 /* s1-title.txt in Resources */,
 				2BB9F31026AF5FB300F43852 /* s4-text.txt in Resources */,
 				2BB9F2FE26AF556600F43852 /* s2-title.txt in Resources */,
 				2BB9E76526AB605900112651 /* Assets.xcassets in Resources */,
 				2BB9F30226AF57B500F43852 /* s2-text.txt in Resources */,
+				2498ABE626B18658004C404C /* Colors.xcassets in Resources */,
 				2BB9E76326AB605700112651 /* Main.storyboard in Resources */,
 				2BB9F29726AE01B800F43852 /* s1-text.txt in Resources */,
 			);
@@ -235,9 +371,29 @@
 				2BB9F30126AF557E00F43852 /* story-2-path.swift in Sources */,
 				2BB9E75C26AB605700112651 /* AppDelegate.swift in Sources */,
 				2BB9F30B26AF5EEC00F43852 /* story-3-path.swift in Sources */,
+				2498ABE226B1820F004C404C /* SettingsMainViewController.m in Sources */,
+				24EBA0BA26BAE4400027345B /* GalleryItemViewController.swift in Sources */,
+				2498ABDE26B16EB2004C404C /* HomeViewController.swift in Sources */,
+				24EBA0C726BB2BD70027345B /* StrokeColorTableViewCell.m in Sources */,
+				24EBA0C426BB29CC0027345B /* StrokeColorSelection.m in Sources */,
+				241AD9CC26B989BC00D99F8A /* AutoInvalidatingLayout.swift in Sources */,
+				24EBA0C126BB27210027345B /* DrawTableViewCell.m in Sources */,
+				241AD9BA26B4765800D99F8A /* GalleryViewController.swift in Sources */,
 				2BB9F29126ADFAF100F43852 /* Data.swift in Sources */,
+				2498ABEF26B2B90D004C404C /* HomeImageCell.swift in Sources */,
+				241AD9CA26B91EAE00D99F8A /* StoryCell.swift in Sources */,
+				2498ABE426B1846C004C404C /* AppTabBarController.swift in Sources */,
+				241AD9B426B456F400D99F8A /* ThemeImageCell.swift in Sources */,
 				2BB9F2EC26AF1F6200F43852 /* story-1-path.swift in Sources */,
+				24EBA0BE26BB212E0027345B /* StrokeTableViewCell.m in Sources */,
+				241AD9C826B8041400D99F8A /* DrawingCell.swift in Sources */,
+				241AD9B626B473DE00D99F8A /* StoryViewController.swift in Sources */,
+				241AD9C426B6D1D800D99F8A /* ShieldLabel.swift in Sources */,
 				2BB9F30E26AF5FA900F43852 /* story-4-path.swift in Sources */,
+				241AD9BE26B56F2F00D99F8A /* SectionImageView.swift in Sources */,
+				24EBA0B826BADDAD0027345B /* AnotherGalleryCell.swift in Sources */,
+				241AD9B226B4292500D99F8A /* BasicContentViewController.swift in Sources */,
+				241AD9BC26B56C8D00D99F8A /* HomeImageView.swift in Sources */,
 				2BB9E75E26AB605700112651 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,6 +551,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.username.RSSchool-T9";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RSSchool_T9/RSSchool_T9-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -416,6 +573,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.username.RSSchool-T9";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RSSchool_T9/RSSchool_T9-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

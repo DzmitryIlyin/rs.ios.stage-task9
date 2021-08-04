@@ -31,4 +31,19 @@ class HomeImageView: UIImageView {
         
         self.layer.insertSublayer(gradient, at: 0)
     }
+    
+    private func removeGradient() {
+        for value in self.layer.sublayers! where value is CAGradientLayer {
+            value.removeFromSuperlayer()
+        }
+        
+    }
+
+    override var bounds: CGRect {
+        didSet
+        {
+            removeGradient()
+            addGradient()
+        }
+    }
 }

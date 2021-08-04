@@ -9,7 +9,19 @@
 
 import UIKit
 
-class HomePhotoCell: UICollectionViewCell {
+class HomeImageCell: UICollectionViewCell {
+    
+//    var titleData: String? {
+//        didSet{
+//
+//        }
+//    }
+//
+//    var typeData: String? {
+//        didSet {
+//
+//        }
+//    }
         
     var data: ContentType? {
         didSet {
@@ -77,13 +89,6 @@ class HomePhotoCell: UICollectionViewCell {
         titleLabel.translatesAutoresizingMaskIntoConstraints = false
         titleLabel.font = UIFont(name: "Rockwell-Regular", size: size)
         titleLabel.textColor = color
-//        titleLabel.adjustsFontSizeToFitWidth = true
-//        titleLabel.minimumScaleFactor = 0.92
-//        titleLabel.numberOfLines = 1
-//        titleLabel.setContentHuggingPriority(.defaultHigh, for: .horizontal)
-//        titleLabel.setContentCompressionResistancePriority(.defaultLow, for: .horizontal)
-//        titleLabel.setContentCompressionResistancePriority(.defaultLow, for: .vertical)
-        
         titleLabel.text = text
         imageView.addSubview(titleLabel)
         
